@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F5D3E929E58FD7008F1E4B /* TrackMyCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D3E829E58FD7008F1E4B /* TrackMyCarApp.swift */; };
+		A6F5D3EB29E58FD7008F1E4B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D3EA29E58FD7008F1E4B /* MainView.swift */; };
+		A6F5D3ED29E58FD9008F1E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F5D3EC29E58FD9008F1E4B /* Assets.xcassets */; };
+		A6F5D3F029E58FD9008F1E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F5D3EF29E58FD9008F1E4B /* Preview Assets.xcassets */; };
+		A6F5D3F229E58FD9008F1E4B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D3F129E58FD9008F1E4B /* Persistence.swift */; };
+		A6F5D3F529E58FD9008F1E4B /* TrackMyCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D3F329E58FD9008F1E4B /* TrackMyCar.xcdatamodeld */; };
+		A6F5D3FF29E58FD9008F1E4B /* TrackMyCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D3FE29E58FD9008F1E4B /* TrackMyCarTests.swift */; };
+		A6F5D40929E58FD9008F1E4B /* TrackMyCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D40829E58FD9008F1E4B /* TrackMyCarUITests.swift */; };
+		A6F5D40B29E58FD9008F1E4B /* TrackMyCarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D40A29E58FD9008F1E4B /* TrackMyCarUITestsLaunchTests.swift */; };
+		A6F5D41829E5902B008F1E4B /* CarDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D41729E5902B008F1E4B /* CarDataModel.swift */; };
+		A6F5D41A29E59064008F1E4B /* CarDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D41929E59064008F1E4B /* CarDataViewModel.swift */; };
+		A6F5D41D29E5914C008F1E4B /* CarDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D41B29E5914C008F1E4B /* CarDataModel.xcdatamodeld */; };
+		A6F5D41F29E597E9008F1E4B /* Fonts+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D41E29E597E9008F1E4B /* Fonts+.swift */; };
+		A6F5D42129E6FBEB008F1E4B /* MyCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D42029E6FBEB008F1E4B /* MyCarsView.swift */; };
+		A6F5D42B29E72BF2008F1E4B /* StyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D42A29E72BF2008F1E4B /* StyledTextField.swift */; };
+		A6F5D42D29E72CA2008F1E4B /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D42C29E72CA2008F1E4B /* BasicTextField.swift */; };
+		A6F5D43129E72D22008F1E4B /* FieldValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43029E72D22008F1E4B /* FieldValidation.swift */; };
+		A6F5D43429E72DA2008F1E4B /* SpaceNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43329E72DA2008F1E4B /* SpaceNumber.swift */; };
+		A6F5D43729E72FE0008F1E4B /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43629E72FE0008F1E4B /* TextFieldType.swift */; };
+		A6F5D43929E731E0008F1E4B /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43829E731E0008F1E4B /* View+.swift */; };
+		A6F5D43C29E735DD008F1E4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43B29E735DD008F1E4B /* CustomTabBar.swift */; };
+		A6F5D43E29E73644008F1E4B /* TabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43D29E73644008F1E4B /* TabBarAnimation.swift */; };
+		A6F5D44029E7367B008F1E4B /* TabBarSelectionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5D43F29E7367B008F1E4B /* TabBarSelectionAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6F5D3FB29E58FD9008F1E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F5D3DD29E58FD7008F1E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F5D3E429E58FD7008F1E4B;
+			remoteInfo = TrackMyCar;
+		};
+		A6F5D40529E58FD9008F1E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F5D3DD29E58FD7008F1E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F5D3E429E58FD7008F1E4B;
+			remoteInfo = TrackMyCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6F5D3E529E58FD7008F1E4B /* TrackMyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F5D3E829E58FD7008F1E4B /* TrackMyCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyCarApp.swift; sourceTree = "<group>"; };
+		A6F5D3EA29E58FD7008F1E4B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A6F5D3EC29E58FD9008F1E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6F5D3EF29E58FD9008F1E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6F5D3F129E58FD9008F1E4B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A6F5D3F429E58FD9008F1E4B /* TrackMyCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMyCar.xcdatamodel; sourceTree = "<group>"; };
+		A6F5D3FA29E58FD9008F1E4B /* TrackMyCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F5D3FE29E58FD9008F1E4B /* TrackMyCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyCarTests.swift; sourceTree = "<group>"; };
+		A6F5D40429E58FD9008F1E4B /* TrackMyCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F5D40829E58FD9008F1E4B /* TrackMyCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyCarUITests.swift; sourceTree = "<group>"; };
+		A6F5D40A29E58FD9008F1E4B /* TrackMyCarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyCarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6F5D41729E5902B008F1E4B /* CarDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataModel.swift; sourceTree = "<group>"; };
+		A6F5D41929E59064008F1E4B /* CarDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataViewModel.swift; sourceTree = "<group>"; };
+		A6F5D41C29E5914C008F1E4B /* Data Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Data Model.xcdatamodel"; sourceTree = "<group>"; };
+		A6F5D41E29E597E9008F1E4B /* Fonts+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+.swift"; sourceTree = "<group>"; };
+		A6F5D42029E6FBEB008F1E4B /* MyCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsView.swift; sourceTree = "<group>"; };
+		A6F5D42A29E72BF2008F1E4B /* StyledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledTextField.swift; sourceTree = "<group>"; };
+		A6F5D42C29E72CA2008F1E4B /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
+		A6F5D43029E72D22008F1E4B /* FieldValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValidation.swift; sourceTree = "<group>"; };
+		A6F5D43329E72DA2008F1E4B /* SpaceNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNumber.swift; sourceTree = "<group>"; };
+		A6F5D43629E72FE0008F1E4B /* TextFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
+		A6F5D43829E731E0008F1E4B /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		A6F5D43B29E735DD008F1E4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A6F5D43D29E73644008F1E4B /* TabBarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAnimation.swift; sourceTree = "<group>"; };
+		A6F5D43F29E7367B008F1E4B /* TabBarSelectionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSelectionAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F5D3E229E58FD7008F1E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D3F729E58FD9008F1E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D40129E58FD9008F1E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F5D3DC29E58FD7008F1E4B = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3E729E58FD7008F1E4B /* TrackMyCar */,
+				A6F5D3FD29E58FD9008F1E4B /* TrackMyCarTests */,
+				A6F5D40729E58FD9008F1E4B /* TrackMyCarUITests */,
+				A6F5D3E629E58FD7008F1E4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F5D3E629E58FD7008F1E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3E529E58FD7008F1E4B /* TrackMyCar.app */,
+				A6F5D3FA29E58FD9008F1E4B /* TrackMyCarTests.xctest */,
+				A6F5D40429E58FD9008F1E4B /* TrackMyCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F5D3E729E58FD7008F1E4B /* TrackMyCar */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D42829E71EF5008F1E4B /* Extensions */,
+				A6F5D42729E71EAF008F1E4B /* Components */,
+				A6F5D42229E71DB2008F1E4B /* Main */,
+				A6F5D42929E721CB008F1E4B /* UIComponents */,
+				A6F5D42029E6FBEB008F1E4B /* MyCarsView.swift */,
+				A6F5D3EC29E58FD9008F1E4B /* Assets.xcassets */,
+				A6F5D3F329E58FD9008F1E4B /* TrackMyCar.xcdatamodeld */,
+				A6F5D3EE29E58FD9008F1E4B /* Preview Content */,
+			);
+			path = TrackMyCar;
+			sourceTree = "<group>";
+		};
+		A6F5D3EE29E58FD9008F1E4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3EF29E58FD9008F1E4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6F5D3FD29E58FD9008F1E4B /* TrackMyCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3FE29E58FD9008F1E4B /* TrackMyCarTests.swift */,
+			);
+			path = TrackMyCarTests;
+			sourceTree = "<group>";
+		};
+		A6F5D40729E58FD9008F1E4B /* TrackMyCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D40829E58FD9008F1E4B /* TrackMyCarUITests.swift */,
+				A6F5D40A29E58FD9008F1E4B /* TrackMyCarUITestsLaunchTests.swift */,
+			);
+			path = TrackMyCarUITests;
+			sourceTree = "<group>";
+		};
+		A6F5D42229E71DB2008F1E4B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D42629E71E14008F1E4B /* Model */,
+				A6F5D42529E71DE4008F1E4B /* MainViewModel */,
+				A6F5D42329E71DCD008F1E4B /* MainView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A6F5D42329E71DCD008F1E4B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3EA29E58FD7008F1E4B /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A6F5D42529E71DE4008F1E4B /* MainViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D41929E59064008F1E4B /* CarDataViewModel.swift */,
+			);
+			path = MainViewModel;
+			sourceTree = "<group>";
+		};
+		A6F5D42629E71E14008F1E4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D41729E5902B008F1E4B /* CarDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6F5D42729E71EAF008F1E4B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D3E829E58FD7008F1E4B /* TrackMyCarApp.swift */,
+				A6F5D3F129E58FD9008F1E4B /* Persistence.swift */,
+				A6F5D41B29E5914C008F1E4B /* CarDataModel.xcdatamodeld */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A6F5D42829E71EF5008F1E4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D41E29E597E9008F1E4B /* Fonts+.swift */,
+				A6F5D43829E731E0008F1E4B /* View+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6F5D42929E721CB008F1E4B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43A29E735BE008F1E4B /* TabBar */,
+				A6F5D43229E72D7B008F1E4B /* Constant's */,
+				A6F5D42F29E72CDB008F1E4B /* TextField's */,
+				A6F5D42E29E72CB7008F1E4B /* Shared */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		A6F5D42E29E72CB7008F1E4B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43029E72D22008F1E4B /* FieldValidation.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A6F5D42F29E72CDB008F1E4B /* TextField's */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43529E72FB9008F1E4B /* TextFieldType */,
+				A6F5D42A29E72BF2008F1E4B /* StyledTextField.swift */,
+				A6F5D42C29E72CA2008F1E4B /* BasicTextField.swift */,
+			);
+			path = "TextField's";
+			sourceTree = "<group>";
+		};
+		A6F5D43229E72D7B008F1E4B /* Constant's */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43329E72DA2008F1E4B /* SpaceNumber.swift */,
+			);
+			path = "Constant's";
+			sourceTree = "<group>";
+		};
+		A6F5D43529E72FB9008F1E4B /* TextFieldType */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43629E72FE0008F1E4B /* TextFieldType.swift */,
+			);
+			path = TextFieldType;
+			sourceTree = "<group>";
+		};
+		A6F5D43A29E735BE008F1E4B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D44129E73692008F1E4B /* TabBarAnimation's */,
+				A6F5D43B29E735DD008F1E4B /* CustomTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A6F5D44129E73692008F1E4B /* TabBarAnimation's */ = {
+			isa = PBXGroup;
+			children = (
+				A6F5D43D29E73644008F1E4B /* TabBarAnimation.swift */,
+				A6F5D43F29E7367B008F1E4B /* TabBarSelectionAnimation.swift */,
+			);
+			path = "TabBarAnimation's";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F5D3E429E58FD7008F1E4B /* TrackMyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F5D40E29E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCar" */;
+			buildPhases = (
+				A6F5D3E129E58FD7008F1E4B /* Sources */,
+				A6F5D3E229E58FD7008F1E4B /* Frameworks */,
+				A6F5D3E329E58FD7008F1E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyCar;
+			productName = TrackMyCar;
+			productReference = A6F5D3E529E58FD7008F1E4B /* TrackMyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6F5D3F929E58FD9008F1E4B /* TrackMyCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F5D41129E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCarTests" */;
+			buildPhases = (
+				A6F5D3F629E58FD9008F1E4B /* Sources */,
+				A6F5D3F729E58FD9008F1E4B /* Frameworks */,
+				A6F5D3F829E58FD9008F1E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F5D3FC29E58FD9008F1E4B /* PBXTargetDependency */,
+			);
+			name = TrackMyCarTests;
+			productName = TrackMyCarTests;
+			productReference = A6F5D3FA29E58FD9008F1E4B /* TrackMyCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6F5D40329E58FD9008F1E4B /* TrackMyCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F5D41429E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCarUITests" */;
+			buildPhases = (
+				A6F5D40029E58FD9008F1E4B /* Sources */,
+				A6F5D40129E58FD9008F1E4B /* Frameworks */,
+				A6F5D40229E58FD9008F1E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F5D40629E58FD9008F1E4B /* PBXTargetDependency */,
+			);
+			name = TrackMyCarUITests;
+			productName = TrackMyCarUITests;
+			productReference = A6F5D40429E58FD9008F1E4B /* TrackMyCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F5D3DD29E58FD7008F1E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A6F5D3E429E58FD7008F1E4B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A6F5D3F929E58FD9008F1E4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A6F5D3E429E58FD7008F1E4B;
+					};
+					A6F5D40329E58FD9008F1E4B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A6F5D3E429E58FD7008F1E4B;
+					};
+				};
+			};
+			buildConfigurationList = A6F5D3E029E58FD7008F1E4B /* Build configuration list for PBXProject "TrackMyCar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6F5D3DC29E58FD7008F1E4B;
+			productRefGroup = A6F5D3E629E58FD7008F1E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F5D3E429E58FD7008F1E4B /* TrackMyCar */,
+				A6F5D3F929E58FD9008F1E4B /* TrackMyCarTests */,
+				A6F5D40329E58FD9008F1E4B /* TrackMyCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F5D3E329E58FD7008F1E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F5D3F029E58FD9008F1E4B /* Preview Assets.xcassets in Resources */,
+				A6F5D3ED29E58FD9008F1E4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D3F829E58FD9008F1E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D40229E58FD9008F1E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F5D3E129E58FD7008F1E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F5D41829E5902B008F1E4B /* CarDataModel.swift in Sources */,
+				A6F5D41A29E59064008F1E4B /* CarDataViewModel.swift in Sources */,
+				A6F5D3F529E58FD9008F1E4B /* TrackMyCar.xcdatamodeld in Sources */,
+				A6F5D41D29E5914C008F1E4B /* CarDataModel.xcdatamodeld in Sources */,
+				A6F5D43C29E735DD008F1E4B /* CustomTabBar.swift in Sources */,
+				A6F5D43129E72D22008F1E4B /* FieldValidation.swift in Sources */,
+				A6F5D41F29E597E9008F1E4B /* Fonts+.swift in Sources */,
+				A6F5D3F229E58FD9008F1E4B /* Persistence.swift in Sources */,
+				A6F5D43E29E73644008F1E4B /* TabBarAnimation.swift in Sources */,
+				A6F5D43729E72FE0008F1E4B /* TextFieldType.swift in Sources */,
+				A6F5D3EB29E58FD7008F1E4B /* MainView.swift in Sources */,
+				A6F5D3E929E58FD7008F1E4B /* TrackMyCarApp.swift in Sources */,
+				A6F5D42B29E72BF2008F1E4B /* StyledTextField.swift in Sources */,
+				A6F5D42D29E72CA2008F1E4B /* BasicTextField.swift in Sources */,
+				A6F5D43429E72DA2008F1E4B /* SpaceNumber.swift in Sources */,
+				A6F5D43929E731E0008F1E4B /* View+.swift in Sources */,
+				A6F5D42129E6FBEB008F1E4B /* MyCarsView.swift in Sources */,
+				A6F5D44029E7367B008F1E4B /* TabBarSelectionAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D3F629E58FD9008F1E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F5D3FF29E58FD9008F1E4B /* TrackMyCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F5D40029E58FD9008F1E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F5D40929E58FD9008F1E4B /* TrackMyCarUITests.swift in Sources */,
+				A6F5D40B29E58FD9008F1E4B /* TrackMyCarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6F5D3FC29E58FD9008F1E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F5D3E429E58FD7008F1E4B /* TrackMyCar */;
+			targetProxy = A6F5D3FB29E58FD9008F1E4B /* PBXContainerItemProxy */;
+		};
+		A6F5D40629E58FD9008F1E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F5D3E429E58FD7008F1E4B /* TrackMyCar */;
+			targetProxy = A6F5D40529E58FD9008F1E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6F5D40C29E58FD9008F1E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6F5D40D29E58FD9008F1E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F5D40F29E58FD9008F1E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackMyCar/Preview Content\"";
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F5D41029E58FD9008F1E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackMyCar/Preview Content\"";
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6F5D41229E58FD9008F1E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyCar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyCar";
+			};
+			name = Debug;
+		};
+		A6F5D41329E58FD9008F1E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyCar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyCar";
+			};
+			name = Release;
+		};
+		A6F5D41529E58FD9008F1E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackMyCar;
+			};
+			name = Debug;
+		};
+		A6F5D41629E58FD9008F1E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2249AJ7FW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ponomarenko.TrackMyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackMyCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F5D3E029E58FD7008F1E4B /* Build configuration list for PBXProject "TrackMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F5D40C29E58FD9008F1E4B /* Debug */,
+				A6F5D40D29E58FD9008F1E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F5D40E29E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F5D40F29E58FD9008F1E4B /* Debug */,
+				A6F5D41029E58FD9008F1E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F5D41129E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F5D41229E58FD9008F1E4B /* Debug */,
+				A6F5D41329E58FD9008F1E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F5D41429E58FD9008F1E4B /* Build configuration list for PBXNativeTarget "TrackMyCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F5D41529E58FD9008F1E4B /* Debug */,
+				A6F5D41629E58FD9008F1E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6F5D3F329E58FD9008F1E4B /* TrackMyCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6F5D3F429E58FD9008F1E4B /* TrackMyCar.xcdatamodel */,
+			);
+			currentVersion = A6F5D3F429E58FD9008F1E4B /* TrackMyCar.xcdatamodel */;
+			path = TrackMyCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A6F5D41B29E5914C008F1E4B /* CarDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6F5D41C29E5914C008F1E4B /* Data Model.xcdatamodel */,
+			);
+			currentVersion = A6F5D41C29E5914C008F1E4B /* Data Model.xcdatamodel */;
+			path = CarDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6F5D3DD29E58FD7008F1E4B /* Project object */;
+}
